@@ -1,7 +1,7 @@
 local class = require 'ext.class'
 local table = require 'ext.table'
 local range = require 'ext.range'
-local Stack = require 'stack'
+local Stack = require 'cards.stack'
 local Pyramid = class()
 function Pyramid:init(args)
 	if Pyramid.is(args) then

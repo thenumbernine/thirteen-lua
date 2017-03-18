@@ -1,8 +1,8 @@
 local class = require 'ext.class'
 local table = require 'ext.table'
 local tolua = require 'ext.tolua'
-local Deck = require 'deck'
-local Stack = require 'stack'
+local Deck = require 'cards.deck'
+local Stack = require 'cards.stack'
 local Pyramid = require 'pyramid'
 
 -- operates in-place
