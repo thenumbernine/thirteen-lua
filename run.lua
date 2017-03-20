@@ -1,7 +1,11 @@
 #!/usr/bin/env luajit
 local table = require 'ext.table'
 local State = require 'state'
+
+math.randomseed(os.time())
 local state = State()
+print(state)
+print'solving...'
 
 local numMoves = 0
 local lastTime = os.time()

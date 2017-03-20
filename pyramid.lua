@@ -56,4 +56,5 @@ function Pyramid:__tostring()
 	end
 	return s:concat()
 end
+function Pyramid.__concat(a,b) return tostring(a) .. tostring(b) end
 return Pyramid
