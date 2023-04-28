@@ -4,7 +4,7 @@ local range = require 'ext.range'
 local Stack = require 'cards.stack'
 local Pyramid = class()
 function Pyramid:init(args)
-	if Pyramid.is(args) then
+	if Pyramid:isa(args) then
 		self.stacks = table()
 		for i,row in ipairs(args.stacks) do
 			self.stacks[i] = table()
